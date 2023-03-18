@@ -1,0 +1,14 @@
+.card__wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__priceWrap {
+  display: flex;
+  align-items: center;
+}
+.card__price {
+  composes: text text_type_digits-default pr-2 pt-1 pb-1 from global;
+}

@@ -1,7 +1,5 @@
 .header__bg {
   background-color: #1C1C21;
-
-  composes: mb-10 from global;
 }
 
 .header__container {
@@ -11,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
 
-  composes: p-6 from global;
+  composes: pt-6 pb-6 from global;
 }
 
 .header__list {

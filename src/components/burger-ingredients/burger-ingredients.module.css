@@ -1,0 +1,35 @@
+.burger__tab {
+  display: flex;
+}
+
+.menu__section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.menu__window {
+  max-height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.menu__window::-webkit-scrollbar {
+  width: 8px;
+  background-color: #2F2F37;
+}
+
+.menu__window::-webkit-scrollbar-thumb {
+  background-color: #8585AD;
+}
+
+.menu__item {
+  display: flex;
+  position: relative;
+  text-align: center;
+  list-style: none;
+  max-width: 45%;
+  cursor: pointer;
+
+  composes: mr-6 mb-10 from global;
+}

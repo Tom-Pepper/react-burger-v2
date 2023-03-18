@@ -1,0 +1,8 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container__inner {
+  max-width: 600px;
+}
