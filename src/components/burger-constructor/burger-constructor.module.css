@@ -15,3 +15,18 @@
 .constructor__list::-webkit-scrollbar-thumb {
   background-color: #8585AD;
 }
+
+.constructor__wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.constructor__icon {
+  composes: pl-2 pr-10 from global;
+}
+
+.constructor__icon svg {
+  width: 33px;
+  height: 33px;
+}
