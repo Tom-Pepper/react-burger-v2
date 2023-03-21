@@ -1,0 +1,17 @@
+.constructor__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 470px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.constructor__list::-webkit-scrollbar {
+  width: 8px;
+  background-color: #2F2F37;
+}
+
+.constructor__list::-webkit-scrollbar-thumb {
+  background-color: #8585AD;
+}

@@ -1,0 +1,36 @@
+.bun {
+  max-width: 536px;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #1C1C21;
+  border-radius: 40px;
+
+  composes: pt-4 pb-4 pl-6 pr-8 ml-8 mb-4 from global;
+}
+
+.bun__img {
+  max-width: 80px;
+}
+
+.bun__top {
+  border-radius: 88px 88px 40px 40px;
+}
+
+.bun__bottom {
+  border-radius: 40px 40px 88px 88px;
+}
+
+.bun__wrap {
+  display: flex;
+}
+
+.bun__wrap_center {
+  align-items: center;
+}
+
+.bun__drag {
+  position: absolute;
+  left: -28px;
+}
